@@ -30,3 +30,5 @@ MANIFEST
 # Excel spreadsheets
 *.xls
 *.xlsx
+# data
+data/*

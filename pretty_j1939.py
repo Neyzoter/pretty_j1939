@@ -42,9 +42,18 @@ if __name__ == '__main__':
             if candump_line == '\n':
                 continue
             try:
-                timestamp = float(candump_line.split(' ')[0].replace('(', '').replace(')', ''))
-                message_id = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[0])
-                message_data = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[1])
+                # timestamp = float(candump_line.split(' ')[0].replace('(', '').replace(')', ''))
+                # message_id = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[0])
+                # message_data = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[1])
+                timestamp = float(candump_line.split(
+                    ' ')[1].replace('(', '').replace(')', ''))
+                message_id = bitstring.ConstBitArray(
+                    hex=candump_line.split(' ')[5])
+                message_data = bitstring.ConstBitArray(
+                    hex=''.join(candump_line.split(' ')[10:]))
+                # print(timestamp)
+                # print(message_id)
+                # print(message_data)
 
             except IndexError:
                 print("Warning: error in line '%s'" % candump_line, file=sys.stderr)

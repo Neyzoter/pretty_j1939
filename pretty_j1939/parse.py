@@ -280,6 +280,8 @@ def describe_message_data(pgn, message_data_bitstring, include_na=False):
         return description
 
     pgn_object = get_pgn_object(pgn)
+    if pgn_object == None:
+        return description
     for spn in pgn_object["SPNs"]:
         spn_name = get_spn_name(spn)
         spn_units = get_spn_object(spn)["Units"]
