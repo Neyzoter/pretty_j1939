@@ -8,7 +8,7 @@ import pretty_j1939.parse
 
 pretty_j1939.parse.init_j1939db()
 
-
+id_dict = {}
 def str2bool(v):
     return v.lower() in ("yes", "true", "t", "1")
 
@@ -54,6 +54,11 @@ if __name__ == '__main__':
                 # print(timestamp)
                 # print(message_id)
                 # print(message_data)
+                if message_id in id_dict:
+                    id_dict[message_id]+=1
+                else:
+                    id_dict[message_id] =1
+
 
             except IndexError:
                 print("Warning: error in line '%s'" % candump_line, file=sys.stderr)
@@ -92,3 +97,7 @@ if __name__ == '__main__':
 
             if len(desc_line) > 0:
                 print(desc_line)
+        print("id_counter:")
+        print(id_dict)
+        print("id size:")
+        print(len(id_dict))
