@@ -1,0 +1,88 @@
+ (0000000029.695353)  can1  0CF00400   [8]  51 81 8A 44 14 00 F3 8A ; {
+                                                                    ;     "PGN": "EEC1(61444)",
+                                                                    ;     "DA": "All(255)",
+                                                                    ;     "SA": "Engine #1(  0)",
+                                                                    ;     "Engine Torque Mode": "5 (Unknown)",
+                                                                    ;     "Actual Engine - Percent Torque (Fractional)": "0.125 [%]",
+                                                                    ;     "Driver's Demand Engine - Percent Torque": "4 [%]",
+                                                                    ;     "Actual Engine - Percent Torque": "13 [%]",
+                                                                    ;     "Engine Speed": "648.5 [rpm]",
+                                                                    ;     "Source Address of Controlling Device for Engine Control": "0 [SA]",
+                                                                    ;     "Engine Demand - Percent Torque": "13 [%]"
+                                                                    ; }
+ (0000000029.695899)  can1  0CF00300   [8]  D0 17 1A FF FF FF FA FF ; {
+                                                                    ;     "PGN": "EEC2(61443)",
+                                                                    ;     "DA": "All(255)",
+                                                                    ;     "SA": "Engine #1(  0)",
+                                                                    ;     "Accelerator Pedal Kickdown Switch": "1 (01 - Kickdown active)",
+                                                                    ;     "Road Speed Limit Status": "0 (00 - Active)",
+                                                                    ;     "Accelerator Pedal 2 Low Idle Switch": "0 (00 Accelerator pedal 2 not in low idle condition)",
+                                                                    ;     "Accelerator Pedal Position 1": "9.200000000000001 [%]",
+                                                                    ;     "Engine Percent Load At Current Speed": "26 [%]",
+                                                                    ;     "Actual Maximum Available Engine - Percent Torque": "100.0 [%]"
+                                                                    ; }
+ (0000000029.696454)  can1  18FEF100   [8]  F3 A0 04 04 00 00 03 C5 ; {
+                                                                    ;     "PGN": "CCVS1(65265)",
+                                                                    ;     "DA": "All(255)",
+                                                                    ;     "SA": "Engine #1(  0)",
+                                                                    ;     "Cruise Control Pause Switch": "0 (00 - Off)",
+                                                                    ;     "Wheel-Based Vehicle Speed": "4.625 [km/h]",
+                                                                    ;     "Cruise Control Active": "0 (00 - Cruise control switched off)",
+                                                                    ;     "Cruise Control Enable Switch": "0 (00 - Cruise control disabled)",
+                                                                    ;     "Brake Switch": "1 (01 - Brake pedal depressed)",
+                                                                    ;     "Clutch Switch": "0 (00 - Clutch pedal released)",
+                                                                    ;     "Cruise Control Set Switch": "0 (00 - Cruise control activator not in the position \"set\")",
+                                                                    ;     "Cruise Control Coast (Decelerate) Switch": "0 (00 - Cruise control activator not in the position \"coast\")",
+                                                                    ;     "Cruise Control Resume Switch": "0 (00 - Cruise control activator not in the position \"resume\")",
+                                                                    ;     "Cruise Control Accelerate Switch": "0 (00 - Cruise control activator not in the position \"accelerate\")",
+                                                                    ;     "Cruise Control Set Speed": "0 [km/h]",
+                                                                    ;     "PTO Governor State": "0 (00000 Off/Disabled)",
+                                                                    ;     "Cruise Control States": "3 (011 - Decelerate)",
+                                                                    ;     "Engine Idle Decrement Switch": "0 (00 - Off)",
+                                                                    ;     "Engine Diagnostic Test Mode Switch": "1 (01 - On)",
+                                                                    ;     "Engine Shutdown Override Switch": "1 (01 - On)"
+                                                                    ; }
+ (0000000029.697004)  can1  18FEF600   [8]  00 34 4D 34 FF 20 22 FF ; {
+                                                                    ;     "PGN": "IC1(65270)",
+                                                                    ;     "DA": "All(255)",
+                                                                    ;     "SA": "Engine #1(  0)",
+                                                                    ;     "Aftertreatment 1 Diesel Particulate Filter Intake Pressure (use SPN 3609)": "0.0 [kPa]",
+                                                                    ;     "Engine Intake Manifold #1 Pressure": "104 [kPa]",
+                                                                    ;     "Engine Intake Manifold 1 Temperature": "37 [degC]",
+                                                                    ;     "Engine Intake Air Pressure": "104 [kPa]",
+                                                                    ;     "Engine Exhaust Temperature": "0.0 [degC]"
+                                                                    ; }
+ (0000000029.697550)  can1  18FEF200   [8]  54 00 2D 02 0C 00 FF FF ; {
+                                                                    ;     "PGN": "LFE1(65266)",
+                                                                    ;     "DA": "All(255)",
+                                                                    ;     "SA": "Engine #1(  0)",
+                                                                    ;     "Engine Fuel Rate": "4.2 [l/h]",
+                                                                    ;     "Engine Instantaneous Fuel Economy": "1.087890625 [km/L]",
+                                                                    ;     "Engine Average Fuel Economy": "0.0234375 [km/L]"
+                                                                    ; }
+ (0000000029.698229)  can1  18FF0000   [8]  00 00 00 00 00 00 00 00 ; {
+                                                                   ;     "PGN": "PropB_00(65280)",
+                                                                   ;     "DA": "All(255)",
+                                                                   ;     "SA": "Engine #1(  0)",
+                                                                   ;     "Manufacturer Defined Usage (PropB_PDU2)": "0b0"
+                                                                   ; }
+id_counter:
+{Bits('0x0cf00400'): 1, Bits('0x0cf00300'): 1, Bits('0x18fef100'): 1, Bits('0x18fef600'): 1, Bits('0x18fef200'): 1, Bits('0x18ff0000'): 1}
+id size:
+6
+{"PGN":"EEC1(61444)","DA":"All(255)","SA":"Engine #1(  0)","Engine Torque Mode":"5 (Unknown)","Actual Engine - Percent Torque (Fractional)":"0.125 [%]","Driver's Demand Engine - Percent Torque":"4 [%]","Actual Engine - Percent Torque":"13 [%]","Engine Speed":"648.5 [rpm]","Source Address of Controlling Device for Engine Control":"0 [SA]","Engine Demand - Percent Torque":"13 [%]"}
+ (0000000029.695353)  can1  0CF00400   [8]  51 81 8A 44 14 00 F3 8A ; {"PGN":"EEC1(61444)","DA":"All(255)","SA":"Engine #1(  0)","Engine Torque Mode":"5 (Unknown)","Actual Engine - Percent Torque (Fractional)":"0.125 [%]","Driver's Demand Engine - Percent Torque":"4 [%]","Actual Engine - Percent Torque":"13 [%]","Engine Speed":"648.5 [rpm]","Source Address of Controlling Device for Engine Control":"0 [SA]","Engine Demand - Percent Torque":"13 [%]"}
+{"PGN":"EEC2(61443)","DA":"All(255)","SA":"Engine #1(  0)","Accelerator Pedal Kickdown Switch":"1 (01 - Kickdown active)","Road Speed Limit Status":"0 (00 - Active)","Accelerator Pedal 2 Low Idle Switch":"0 (00 Accelerator pedal 2 not in low idle condition)","Accelerator Pedal Position 1":"9.200000000000001 [%]","Engine Percent Load At Current Speed":"26 [%]","Actual Maximum Available Engine - Percent Torque":"100.0 [%]"}
+ (0000000029.695899)  can1  0CF00300   [8]  D0 17 1A FF FF FF FA FF ; {"PGN":"EEC2(61443)","DA":"All(255)","SA":"Engine #1(  0)","Accelerator Pedal Kickdown Switch":"1 (01 - Kickdown active)","Road Speed Limit Status":"0 (00 - Active)","Accelerator Pedal 2 Low Idle Switch":"0 (00 Accelerator pedal 2 not in low idle condition)","Accelerator Pedal Position 1":"9.200000000000001 [%]","Engine Percent Load At Current Speed":"26 [%]","Actual Maximum Available Engine - Percent Torque":"100.0 [%]"}
+{"PGN":"CCVS1(65265)","DA":"All(255)","SA":"Engine #1(  0)","Cruise Control Pause Switch":"0 (00 - Off)","Wheel-Based Vehicle Speed":"4.625 [km/h]","Cruise Control Active":"0 (00 - Cruise control switched off)","Cruise Control Enable Switch":"0 (00 - Cruise control disabled)","Brake Switch":"1 (01 - Brake pedal depressed)","Clutch Switch":"0 (00 - Clutch pedal released)","Cruise Control Set Switch":"0 (00 - Cruise control activator not in the position \"set\")","Cruise Control Coast (Decelerate) Switch":"0 (00 - Cruise control activator not in the position \"coast\")","Cruise Control Resume Switch":"0 (00 - Cruise control activator not in the position \"resume\")","Cruise Control Accelerate Switch":"0 (00 - Cruise control activator not in the position \"accelerate\")","Cruise Control Set Speed":"0 [km/h]","PTO Governor State":"0 (00000 Off/Disabled)","Cruise Control States":"3 (011 - Decelerate)","Engine Idle Decrement Switch":"0 (00 - Off)","Engine Diagnostic Test Mode Switch":"1 (01 - On)","Engine Shutdown Override Switch":"1 (01 - On)"}
+ (0000000029.696454)  can1  18FEF100   [8]  F3 A0 04 04 00 00 03 C5 ; {"PGN":"CCVS1(65265)","DA":"All(255)","SA":"Engine #1(  0)","Cruise Control Pause Switch":"0 (00 - Off)","Wheel-Based Vehicle Speed":"4.625 [km/h]","Cruise Control Active":"0 (00 - Cruise control switched off)","Cruise Control Enable Switch":"0 (00 - Cruise control disabled)","Brake Switch":"1 (01 - Brake pedal depressed)","Clutch Switch":"0 (00 - Clutch pedal released)","Cruise Control Set Switch":"0 (00 - Cruise control activator not in the position \"set\")","Cruise Control Coast (Decelerate) Switch":"0 (00 - Cruise control activator not in the position \"coast\")","Cruise Control Resume Switch":"0 (00 - Cruise control activator not in the position \"resume\")","Cruise Control Accelerate Switch":"0 (00 - Cruise control activator not in the position \"accelerate\")","Cruise Control Set Speed":"0 [km/h]","PTO Governor State":"0 (00000 Off/Disabled)","Cruise Control States":"3 (011 - Decelerate)","Engine Idle Decrement Switch":"0 (00 - Off)","Engine Diagnostic Test Mode Switch":"1 (01 - On)","Engine Shutdown Override Switch":"1 (01 - On)"}
+{"PGN":"IC1(65270)","DA":"All(255)","SA":"Engine #1(  0)","Aftertreatment 1 Diesel Particulate Filter Intake Pressure (use SPN 3609)":"0.0 [kPa]","Engine Intake Manifold #1 Pressure":"104 [kPa]","Engine Intake Manifold 1 Temperature":"37 [degC]","Engine Intake Air Pressure":"104 [kPa]","Engine Exhaust Temperature":"0.0 [degC]"}
+ (0000000029.697004)  can1  18FEF600   [8]  00 34 4D 34 FF 20 22 FF ; {"PGN":"IC1(65270)","DA":"All(255)","SA":"Engine #1(  0)","Aftertreatment 1 Diesel Particulate Filter Intake Pressure (use SPN 3609)":"0.0 [kPa]","Engine Intake Manifold #1 Pressure":"104 [kPa]","Engine Intake Manifold 1 Temperature":"37 [degC]","Engine Intake Air Pressure":"104 [kPa]","Engine Exhaust Temperature":"0.0 [degC]"}
+{"PGN":"LFE1(65266)","DA":"All(255)","SA":"Engine #1(  0)","Engine Fuel Rate":"4.2 [l/h]","Engine Instantaneous Fuel Economy":"1.087890625 [km/L]","Engine Average Fuel Economy":"0.0234375 [km/L]"}
+ (0000000029.697550)  can1  18FEF200   [8]  54 00 2D 02 0C 00 FF FF ; {"PGN":"LFE1(65266)","DA":"All(255)","SA":"Engine #1(  0)","Engine Fuel Rate":"4.2 [l/h]","Engine Instantaneous Fuel Economy":"1.087890625 [km/L]","Engine Average Fuel Economy":"0.0234375 [km/L]"}
+{"PGN":"PropB_00(65280)","DA":"All(255)","SA":"Engine #1(  0)","Manufacturer Defined Usage (PropB_PDU2)":"0b0"}
+ (0000000029.698229)  can1  18FF0000   [8]  00 00 00 00 00 00 00 00 ; {"PGN":"PropB_00(65280)","DA":"All(255)","SA":"Engine #1(  0)","Manufacturer Defined Usage (PropB_PDU2)":"0b0"}
+id_counter:
+{Bits('0x0cf00400'): 1, Bits('0x0cf00300'): 1, Bits('0x18fef100'): 1, Bits('0x18fef600'): 1, Bits('0x18fef200'): 1, Bits('0x18ff0000'): 1}
+id size:
+6

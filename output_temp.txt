@@ -1,0 +1,643 @@
+{
+    "PGN": "EEC1(61444)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Torque Mode": "5 (Unknown)",
+    "Actual Engine - Percent Torque (Fractional)": "0.125 [%]",
+    "Driver's Demand Engine - Percent Torque": "4 [%]",
+    "Actual Engine - Percent Torque": "13 [%]",
+    "Engine Speed": "648.5 [rpm]",
+    "Source Address of Controlling Device for Engine Control": "0 [SA]",
+    "Engine Starter Mode": "N/A",
+    "Engine Demand - Percent Torque": "13 [%]"
+}
+{
+    "PGN": "EEC2(61443)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Accelerator Pedal 1 Low Idle Switch": "N/A",
+    "Accelerator Pedal Kickdown Switch": "1 (01 - Kickdown active)",
+    "Road Speed Limit Status": "0 (00 - Active)",
+    "Accelerator Pedal 2 Low Idle Switch": "0 (00 Accelerator pedal 2 not in low idle condition)",
+    "Accelerator Pedal Position 1": "9.200000000000001 [%]",
+    "Engine Percent Load At Current Speed": "26 [%]",
+    "Remote Accelerator Pedal Position": "N/A",
+    "Accelerator Pedal Position 2": "N/A",
+    "Vehicle Acceleration Rate Limit Status": "N/A",
+    "Momentary Engine Maximum Power Enable Feedback": "N/A",
+    "DPF Thermal Management Active": "N/A",
+    "SCR Thermal Management Active": "N/A",
+    "Actual Maximum Available Engine - Percent Torque": "100.0 [%]",
+    "Estimated Pumping - Percent Torque": "N/A"
+}
+{
+    "PGN": "CCVS1(65265)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Two Speed Axle Switch": "N/A",
+    "Parking Brake Switch": "N/A",
+    "Cruise Control Pause Switch": "0 (00 - Off)",
+    "Park Brake Release Inhibit Request": "N/A",
+    "Wheel-Based Vehicle Speed": "4.625 [km/h]",
+    "Cruise Control Active": "0 (00 - Cruise control switched off)",
+    "Cruise Control Enable Switch": "0 (00 - Cruise control disabled)",
+    "Brake Switch": "1 (01 - Brake pedal depressed)",
+    "Clutch Switch": "0 (00 - Clutch pedal released)",
+    "Cruise Control Set Switch": "0 (00 - Cruise control activator not in the position \"set\")",
+    "Cruise Control Coast (Decelerate) Switch": "0 (00 - Cruise control activator not in the position \"coast\")",
+    "Cruise Control Resume Switch": "0 (00 - Cruise control activator not in the position \"resume\")",
+    "Cruise Control Accelerate Switch": "0 (00 - Cruise control activator not in the position \"accelerate\")",
+    "Cruise Control Set Speed": "0 [km/h]",
+    "PTO Governor State": "0 (00000 Off/Disabled)",
+    "Cruise Control States": "3 (011 - Decelerate)",
+    "Engine Idle Increment Switch": "N/A",
+    "Engine Idle Decrement Switch": "0 (00 - Off)",
+    "Engine Diagnostic Test Mode Switch": "1 (01 - On)",
+    "Engine Shutdown Override Switch": "1 (01 - On)"
+}
+{
+    "PGN": "IC1(65270)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Aftertreatment 1 Diesel Particulate Filter Intake Pressure (use SPN 3609)": "0.0 [kPa]",
+    "Engine Intake Manifold #1 Pressure": "104 [kPa]",
+    "Engine Intake Manifold 1 Temperature": "37 [degC]",
+    "Engine Intake Air Pressure": "104 [kPa]",
+    "Engine Air Filter 1 Differential Pressure": "N/A",
+    "Engine Exhaust Temperature": "0.0 [degC]",
+    "Engine Coolant Filter Differential Pressure": "N/A"
+}
+{
+    "PGN": "LFE1(65266)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Fuel Rate": "4.2 [l/h]",
+    "Engine Instantaneous Fuel Economy": "1.087890625 [km/L]",
+    "Engine Average Fuel Economy": "0.0234375 [km/L]",
+    "Engine Throttle Valve 1 Position 1": "N/A",
+    "Engine Throttle Valve 2 Position": "N/A"
+}
+{
+    "PGN": "PropB_00(65280)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b0"
+}
+{
+    "PGN": "EEC3(65247)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Nominal Friction - Percent Torque": "5 [%]",
+    "Engine's Desired Operating Speed": "86.0 [rpm]",
+    "Engine's Desired Operating Speed Asymmetry Adjustment": "21 [Ratio]",
+    "Estimated Engine Parasitic Losses - Percent Torque": "0 [%]",
+    "Aftertreatment 1 Exhaust Gas Mass Flow Rate": "224.20000000000002 [kg/h]",
+    "Aftertreatment 1 Intake Dew Point": "N/A",
+    "Aftertreatment 1 Exhaust Dew Point": "N/A",
+    "Aftertreatment 2 Intake Dew Point": "N/A",
+    "Aftertreatment 2 Exhaust Dew Point": "N/A"
+}
+{
+    "PGN": "PropB_39(65337)",
+    "DA": "All(255)",
+    "SA": "Management Computer #1( 39)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "PropB_0A(65290)",
+    "DA": "All(255)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "VW(65258)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Axle Location": "31 (Unknown)",
+    "Axle Weight": "9020.0 [kg]",
+    "Trailer Weight": "N/A",
+    "Cargo Weight": "N/A"
+}
+{
+    "PGN": "ASC3(65113)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Relative Level Front Axle Left": "N/A",
+    "Relative Level Front Axle Right": "N/A",
+    "Relative Level Rear Axle Left": "8.400000000000091 [mm]",
+    "Relative Level Rear Axle Right": "0.0 [mm]"
+}
+{
+    "PGN": "EFL/P1(65263)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Fuel Delivery Pressure": "560 [kPa]",
+    "Engine Extended Crankcase Blow-by Pressure": "N/A",
+    "Engine Oil Level": "N/A",
+    "Engine Oil Pressure": "348 [kPa]",
+    "Engine Crankcase Pressure 1": "N/A",
+    "Engine Coolant Pressure 1": "N/A",
+    "Engine Coolant Level 1": "24.8 [%]"
+}
+{
+    "PGN": "AT1OG1(61455)",
+    "DA": "All(255)",
+    "SA": "Aftertreatment #1 system gas outlet( 82)",
+    "Aftertreatment 1 Outlet NOx 1": "N/A",
+    "Aftertreatment 1 Outlet Percent Oxygen 1": "N/A",
+    "Aftertreatment 1 Outlet Gas Sensor 1 Power In Range": "N/A",
+    "Aftertreatment 1 Outlet Gas Sensor 1 at Temperature": "N/A",
+    "Aftertreatment 1 Outlet NOx 1 Reading Stable": "N/A",
+    "Aftertreatment 1 Outlet Wide-Range Percent Oxygen 1 Reading Stable": "N/A",
+    "Aftertreatment 1 Outlet Gas Sensor 1 Heater Preliminary FMI": "N/A",
+    "Aftertreatment 1 Outlet Gas Sensor 1 Heater Control": "N/A",
+    "Aftertreatment 1 Outlet NOx Sensor 1 Preliminary FMI": "N/A",
+    "Aftertreatment 1 Outlet NOx Sensor 1 Self-diagnosis Status": "N/A",
+    "Aftertreatment 1 Outlet Oxygen Sensor 1 Preliminary FMI": "N/A"
+}
+{
+    "PGN": "PropB_0B(65291)",
+    "DA": "All(255)",
+    "SA": "Body Controller( 33)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "ASC4(65112)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Bellow Pressure Front Axle Left": "N/A",
+    "Bellow Pressure Front Axle Right": "N/A",
+    "Bellow Pressure Rear Axle Left": "422.0 [kPa]",
+    "Bellow Pressure Rear Axle Right": "483.0 [kPa]"
+}
+{
+    "PGN": "PropB_01(65281)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "ASC1(65114)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Nominal Level Front Axle": "1 (0001 \"Normal Level 1,(i.e. the level prescribed for normal driving, given by design))",
+    "Nominal Level Rear Axle": "N/A",
+    "Below Nominal Level Front Axle": "0 (00 Not below)",
+    "Below Nominal Level Rear Axle": "N/A",
+    "Above Nominal Level Front Axle": "0 (00 Not above)",
+    "Above Nominal Level Rear Axle": "N/A",
+    "Lowering Control Mode Front Axle": "0 (00 Lowering not active)",
+    "Lowering Control Mode Rear Axle": "N/A",
+    "Lifting Control Mode Front Axle": "0 (00 Lifting not active)",
+    "Lifting Control Mode Rear Axle": "N/A",
+    "Kneeling Information": "5 (0101-1101 Not defined)",
+    "Level Control Mode": "N/A",
+    "Security Device": "0 (00 Not active)",
+    "Vehicle Motion Inhibit": "N/A",
+    "Door Release": "N/A",
+    "Lift Axle 1 Position": "N/A",
+    "Front Axle in Bumper Range": "N/A",
+    "Rear Axle in Bumper Range": "N/A",
+    "Lift Axle 2 Position": "N/A",
+    "Suspension Remote Control 1": "N/A",
+    "Suspension Remote control 2": "N/A",
+    "Allow Level Control During Braking Status": "N/A",
+    "Speed Dependant Level Control Status": "N/A",
+    "Suspension Control Refusal Information": "N/A",
+    "Memory level": "N/A"
+}
+{
+    "PGN": "ET1(65262)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Coolant Temperature": "59 [degC]",
+    "Engine Fuel 1 Temperature 1": "N/A",
+    "Engine Oil Temperature 1": "N/A",
+    "Engine Turbocharger Oil Temperature": "N/A",
+    "Engine Intercooler Temperature": "N/A",
+    "Engine Charge Air Cooler Thermostat Opening": "N/A"
+}
+{
+    "PGN": "ERC1(61440)",
+    "DA": "All(255)",
+    "SA": "Retarder, Exhaust, Engine #1( 41)",
+    "Retarder Torque Mode": "5 (Unknown)",
+    "Retarder Enable - Brake Assist Switch": "0 (00 Retarder - brake assist disabled)",
+    "Retarder Enable - Shift Assist Switch": "0 (00 Retarder - shift assist disabled)",
+    "Actual Retarder - Percent Torque": "0 [%]",
+    "Intended Retarder Percent Torque": "0 [%]",
+    "Engine Coolant Load Increase": "N/A",
+    "Retarder Requesting Brake Light": "N/A",
+    "Retarder Road Speed Limit Switch": "N/A",
+    "Retarder Road Speed Exceeded Status": "N/A",
+    "Source Address of Controlling Device for Retarder Control": "0 [SA]",
+    "Drivers Demand Retarder -  Percent Torque": "0 [%]",
+    "Retarder Selection, non-engine": "N/A",
+    "Actual Maximum Available Retarder - Percent Torque": "0 [%]"
+}
+{
+    "PGN": "TSC1(0)",
+    "DA": "Engine #1(  0)",
+    "SA": "Brakes - System Controller( 11)",
+    "Engine Override Control Mode": "0 (00 Override disabled - Disable any existing control commanded by the source of this command.)",
+    "Engine Requested Speed Control Conditions": "N/A",
+    "Override Control Mode Priority": "0 (00b - Highest Priority = Used for situations that require immediate action by the receiving device in order to provide safe vehicle operation (i.e., braking systems). This level of priority should only be used in safety critical conditions.)",
+    "Engine Requested Speed/Speed Limit": "N/A",
+    "Engine Requested Torque/Torque Limit": "125 [%]",
+    "TSC1 Transmission Rate": "N/A",
+    "TSC1 Control Purpose": "N/A",
+    "Engine Requested Torque (Fractional)": "N/A",
+    "Message Counter": "3 [count]",
+    "Message Checksum": "6 [count]"
+}
+{
+    "PGN": "EBC5(64964)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)",
+    "Brake Temperature Warning": "N/A",
+    "Halt brake mode": "N/A",
+    "Hill holder mode": "4 (100 Reserved)",
+    "Foundation Brake Use": "0 (00 Foundation brakes not in use)",
+    "XBR System State": "0 (00 - Any external brake demand will be accepted (brake system fully operational))",
+    "XBR Active Control Mode": "8 (0100 - 1110 Reserved for SAE assignment)",
+    "XBR Acceleration Limit": "N/A",
+    "Parking Brake Actuator Fully Activated": "N/A",
+    "Emergency Braking Active": "N/A",
+    "Railroad Mode": "0 (00 - Inactive (Driving mode: Steer Axle on ground))"
+}
+{
+    "PGN": "VDC1(65103)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)",
+    "VDC Information Signal": "N/A",
+    "VDC Fully Operational": "0 (00 Not fully operational)",
+    "VDC brake light request": "0 (00 Turn brake light not on)",
+    "ROP Engine Control active": "0 (00 ROP engine control passive but installed)",
+    "ROP Brake Control active": "0 (00 ROP brake control passive but installed)",
+    "YC Engine Control active": "0 (00 YC engine control passive but installed)",
+    "YC Brake Control active": "0 (00 YC brake control passive but installed)",
+    "Trailer-VDC Active": "N/A"
+}
+{
+    "PGN": "EBC2(65215)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)",
+    "Front Axle Speed": "5.01171875 [km/h]",
+    "Relative Speed; Front Axle, Left Wheel": "0.25 [km/h]",
+    "Relative Speed; Front Axle, Right Wheel": "0.25 [km/h]",
+    "Relative Speed; Rear Axle #1, Left Wheel": "2.0 [km/h]",
+    "Relative Speed; Rear Axle #1, Right Wheel": "2.0625 [km/h]",
+    "Relative Speed; Rear Axle #2, Left Wheel": "N/A",
+    "Relative Speed; Rear Axle #2, Right Wheel": "N/A"
+}
+{
+    "PGN": "TSC1(0)",
+    "DA": "Retarder, Exhaust, Engine #1( 41)",
+    "SA": "Brakes - System Controller( 11)",
+    "Engine Override Control Mode": "0 (00 Override disabled - Disable any existing control commanded by the source of this command.)",
+    "Engine Requested Speed Control Conditions": "N/A",
+    "Override Control Mode Priority": "0 (00b - Highest Priority = Used for situations that require immediate action by the receiving device in order to provide safe vehicle operation (i.e., braking systems). This level of priority should only be used in safety critical conditions.)",
+    "Engine Requested Speed/Speed Limit": "N/A",
+    "Engine Requested Torque/Torque Limit": "0 [%]",
+    "TSC1 Transmission Rate": "N/A",
+    "TSC1 Control Purpose": "N/A",
+    "Engine Requested Torque (Fractional)": "N/A",
+    "Message Counter": "6 [count]",
+    "Message Checksum": "6 [count]"
+}
+{
+    "PGN": "PropB_02(65282)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "EBC1(61441)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)",
+    "ASR Engine Control Active": "0 (00 - ASR engine control passive but installed)",
+    "ASR Brake Control Active": "0 (00 - ASR brake control passive but installed)",
+    "Anti-Lock Braking (ABS) Active": "N/A",
+    "EBS Brake Switch": "0 (00 - Brake pedal is not being pressed)",
+    "Brake Pedal Position": "0.0 [%]",
+    "ABS Off-road Switch": "N/A",
+    "ASR Off-road Switch": "N/A",
+    "ASR \"Hill Holder\" Switch": "0 (00 - ASR \"hill holder\" switch passive)",
+    "Traction Control Override Switch": "N/A",
+    "Accelerator Interlock Switch": "N/A",
+    "Engine Derate Switch": "N/A",
+    "Engine Auxiliary Shutdown Switch": "N/A",
+    "Remote Accelerator Enable Switch": "N/A",
+    "Engine Retarder Selection": "N/A",
+    "ABS Fully Operational": "0 (00 - Not Fully Operational)",
+    "EBS Red Warning Signal": "0 (00 Off)",
+    "ABS/EBS Amber Warning Signal (Powered Vehicle)": "0 (00 Off)",
+    "ATC/ASR Information Signal": "1 (01 On)",
+    "Source Address of Controlling Device for Brake Control": "N/A",
+    "Railroad Mode Switch": "N/A",
+    "Halt brake switch": "N/A",
+    "Trailer ABS Status": "N/A",
+    "Tractor-Mounted Trailer ABS Warning Signal": "N/A"
+}
+{
+    "PGN": "DM1(65226)",
+    "DA": "All(255)",
+    "SA": "Suspension - System Controller #1( 47)"
+}
+{
+    "PGN": "AT1OGC1(64783)",
+    "DA": "All(255)",
+    "SA": "Aftertreatment #1 system gas outlet( 82)",
+    "Aftertreatment 1 Outlet NOx Sensor Heater Ratio": "1.062 [Ratio]",
+    "Aftertreatment 1 Outlet NOx Sensor New part deviation NOx Gain": "0.20000000000000284 [%]",
+    "Aftertreatment 1 Outlet NOx Sensor New part deviation NOx Offset": "-1 [ppm]",
+    "Aftertreatment 1 Outlet NOx Sensor Operation Hours": "87 [h]"
+}
+{
+    "PGN": "VDHR(65217)",
+    "DA": "All(255)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Total Vehicle Distance (High Resolution)": "71383190 [m]",
+    "Trip Distance (High Resolution)": "N/A"
+}
+{
+    "PGN": "LFC1(65257)",
+    "DA": "All(255)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Engine Trip Fuel": "N/A",
+    "Engine Total Fuel Used": "23211.5 [l]"
+}
+{
+    "PGN": "DD1(65276)",
+    "DA": "All(255)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Washer Fluid Level": "N/A",
+    "Fuel Level 1": "25.6 [%]",
+    "Engine Fuel Filter Differential Pressure": "N/A",
+    "Engine Oil Filter Differential Pressure": "N/A",
+    "Cargo Ambient Temperature": "N/A",
+    "Fuel Level 2": "N/A",
+    "Engine Oil Filter Differential Pressure (Extended Range)": "N/A"
+}
+{
+    "PGN": "RESET(56832)",
+    "DA": "Tachograph(238)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Trip Group 1": "N/A",
+    "Trip Group 2 - Proprietary": "N/A",
+    "Service Component Identification": "N/A",
+    "Engine Build Hours Reset": "N/A",
+    "Steering Straight Ahead Position Reset": "N/A",
+    "Engine Spark Plug Secondary Voltage Tracking Reset": "N/A",
+    "Engine Ignition Control Maintenance Hours Reset": "N/A",
+    "Bin Lift Count Reset": "N/A",
+    "Tire Configuration Information": "N/A",
+    "Tire Sensor Information": "N/A"
+}
+{
+    "PGN": "PropB_70(65392)",
+    "DA": "All(255)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Manufacturer Defined Usage (PropB_PDU2)": "0b1"
+}
+{
+    "PGN": "TSC1(0)",
+    "DA": "Retarder - Engine( 15)",
+    "SA": "Brakes - System Controller( 11)",
+    "Engine Override Control Mode": "0 (00 Override disabled - Disable any existing control commanded by the source of this command.)",
+    "Engine Requested Speed Control Conditions": "N/A",
+    "Override Control Mode Priority": "0 (00b - Highest Priority = Used for situations that require immediate action by the receiving device in order to provide safe vehicle operation (i.e., braking systems). This level of priority should only be used in safety critical conditions.)",
+    "Engine Requested Speed/Speed Limit": "N/A",
+    "Engine Requested Torque/Torque Limit": "0 [%]",
+    "TSC1 Transmission Rate": "N/A",
+    "TSC1 Control Purpose": "N/A",
+    "Engine Requested Torque (Fractional)": "N/A",
+    "Message Counter": "5 [count]",
+    "Message Checksum": "2 [count]"
+}
+{
+    "PGN": "TSC1(0)",
+    "DA": "Retarder - Driveline( 16)",
+    "SA": "Brakes - System Controller( 11)",
+    "Engine Override Control Mode": "0 (00 Override disabled - Disable any existing control commanded by the source of this command.)",
+    "Engine Requested Speed Control Conditions": "N/A",
+    "Override Control Mode Priority": "0 (00b - Highest Priority = Used for situations that require immediate action by the receiving device in order to provide safe vehicle operation (i.e., braking systems). This level of priority should only be used in safety critical conditions.)",
+    "Engine Requested Speed/Speed Limit": "N/A",
+    "Engine Requested Torque/Torque Limit": "0 [%]",
+    "TSC1 Transmission Rate": "N/A",
+    "TSC1 Control Purpose": "N/A",
+    "Engine Requested Torque (Fractional)": "N/A",
+    "Message Counter": "6 [count]",
+    "Message Checksum": "2 [count]"
+}
+{
+    "PGN": "RQST(59904)",
+    "DA": "Engine #1(  0)",
+    "SA": "Instrument Cluster #1( 23)",
+    "Parameter Group Number (RQST)": "0b0"
+}
+{
+    "PGN": "HOURS(65253)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Total Hours of Operation": "3706.0 [h]",
+    "Engine Total Revolutions": "114418000 [r]"
+}
+{
+    "PGN": "DM1(65226)",
+    "DA": "All(255)",
+    "SA": "Body Controller( 33)"
+}
+{
+    "PGN": "DM1(65226)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)"
+}
+{
+    "PGN": "AT1T1I1(65110)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank Volume": "48.0 [%]",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank Temperature 1": "29 [degC]",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank Level": "0.0 [mm]",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank Level/Volume Preliminary FMI": "0 (Unknown)",
+    "Aftertreatment Diesel Exhaust Fluid Tank Low Level Indicator": "0 (000 - Off - indicates adequate DEF level)",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Temperature Preliminary FMI": "0 (Unknown)",
+    "Aftertreatment SCR Operator Inducement Severity": "0 (000 - Driver Warning, Low-Level Inducement, and Severe Inducement Non-Active)",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank Heater": "0.0 [%]",
+    "Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Heater Preliminary FMI": "0 (Unknown)"
+}
+{
+    "PGN": "EEC3(65247)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Nominal Friction - Percent Torque": "N/A",
+    "Engine's Desired Operating Speed": "N/A",
+    "Engine's Desired Operating Speed Asymmetry Adjustment": "N/A",
+    "Estimated Engine Parasitic Losses - Percent Torque": "N/A",
+    "Aftertreatment 1 Exhaust Gas Mass Flow Rate": "N/A",
+    "Aftertreatment 1 Intake Dew Point": "N/A",
+    "Aftertreatment 1 Exhaust Dew Point": "N/A",
+    "Aftertreatment 2 Intake Dew Point": "0 (00 - Not exceeded the dew point)",
+    "Aftertreatment 2 Exhaust Dew Point": "N/A"
+}
+{
+    "PGN": "WS(61488)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Wireless Rolling Message Counter": "35842 [count]",
+    "Transmitter Command State": "0 (0000b - Stop - Received an RF messsage from a transmitter requesting a machine level \"Stop.\")",
+    "Transmitter ID 1": "14680225 [ID]",
+    "Wireless Signal Strength 1": "-125.0 [dBm]"
+}
+{
+    "PGN": "WAND(61489)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Wand Angle": "-13.82 [deg]",
+    "Wand Sensor Figure of Merit": "0 (00 Sensor fully functional)"
+}
+{
+    "PGN": "CI(65259)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Make": "00000000",
+    "Model": "",
+    "Serial Number": "",
+    "Unit Number (Power Unit)": ""
+}
+{
+    "PGN": "AMB(65269)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Barometric Pressure": "100.0 [kPa]",
+    "Cab Interior Temperature": "N/A",
+    "Ambient Air Temperature": "31.0 [degC]",
+    "Engine Intake 1 Air Temperature": "30 [degC]",
+    "Road Surface Temperature": "N/A"
+}
+{
+    "PGN": "LDISP(61490)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Measured Linear Displacement": "1331.6000000000001 [mm]",
+    "Linear Displacement Sensor Sensor Figure of Merit": "0 (00 Sensor fully functional)"
+}
+{
+    "PGN": "TP.CM.xx(60416)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)"
+}
+{
+    "PGN": "A1SCRAI2(61491)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Aftertreatment 1 SCR Intermediate NH3": "0x00fc (Out of range)",
+    "Aftertreatment 1 SCR Intermediate NH3 Sensor Preliminary FMI": "14 (Unknown)",
+    "Aftertreatment 1 SCR Intermediate NH3 Reading Stable": "1 (01 - Reading is stable)",
+    "Aftertreatment 1 SCR Intermediate NH3 Sensor Power In Range": "N/A",
+    "Aftertreatment 1 SCR Intermediate NH3 Sensor at Temperature": "2 (10 - Error)",
+    "Aftertreatment 1 SCR Intermediate NH3 Sensor Heater Preliminary FMI": "0 (Unknown)",
+    "Aftertreatment 1 SCR Intermediate NH3 Sensor Heater Control": "0 (00 - Automatic)"
+}
+{
+    "PGN": "TP.DT(60160)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)"
+}
+{
+    "PGN": "A2SCRAI2(61492)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)",
+    "Aftertreatment 2 SCR Intermediate NH3": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Sensor Preliminary FMI": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Reading Stable": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Sensor Power In Range": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Sensor at Temperature": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Sensor Heater Preliminary FMI": "N/A",
+    "Aftertreatment 2 SCR Intermediate NH3 Sensor Heater Control": "N/A"
+}
+{
+    "PGN": "Unknown(61493)",
+    "DA": "All(255)",
+    "SA": "Exhaust Emission Controller( 61)"
+}
+{
+    "PGN": "SHUTDN(65252)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Idle Shutdown has Shutdown Engine": "N/A",
+    "Engine Idle Shutdown Driver Alert Mode": "N/A",
+    "Engine Idle Shutdown Timer Override": "N/A",
+    "Engine Idle Shutdown Timer State": "N/A",
+    "Engine Idle Shutdown Timer Function": "N/A",
+    "A/C High Pressure Fan Switch": "N/A",
+    "Refrigerant Low Pressure Switch": "N/A",
+    "Refrigerant High Pressure Switch": "N/A",
+    "Engine Wait to Start Lamp": "N/A",
+    "Engine Protection System has Shutdown Engine": "N/A",
+    "Engine Protection System Approaching Shutdown": "N/A",
+    "Engine Protection System Timer Override": "N/A",
+    "Engine Protection System Timer State": "0 (00 - Inactive)",
+    "Engine Protection System Configuration": "N/A",
+    "Engine Alarm Acknowledge": "N/A",
+    "Engine Alarm Output Command Status": "N/A",
+    "Engine Air Shutoff Command Status": "N/A",
+    "Engine Overspeed Test": "N/A",
+    "Engine Air Shutoff Status": "N/A",
+    "PTO Shutdown has Shutdown Engine": "N/A",
+    "Coolant Level Engine Protection Shutdown Status": "N/A",
+    "Engine Oil Pressure Switch": "N/A"
+}
+{
+    "PGN": "DM1(65226)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)"
+}
+{
+    "PGN": "VDHR(65217)",
+    "DA": "All(255)",
+    "SA": "Brakes - System Controller( 11)",
+    "Total Vehicle Distance (High Resolution)": "0 [m]",
+    "Trip Distance (High Resolution)": "0 [m]"
+}
+{
+    "PGN": "VEP1(65271)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "SLI Battery 1 Net Current": "N/A",
+    "Alternator Current": "N/A",
+    "Charging System Potential (Voltage)": "N/A",
+    "Battery Potential / Power Input 1": "28.0 [V]",
+    "Key Switch Battery Potential": "28.0 [V]"
+}
+{
+    "PGN": "TP.CM.xx(60416)",
+    "DA": "All(255)",
+    "SA": "Retarder - Engine( 15)"
+}
+{
+    "PGN": "TP.DT(60160)",
+    "DA": "All(255)",
+    "SA": "Retarder - Engine( 15)"
+}
+{
+    "PGN": "LFC1(65257)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Engine Trip Fuel": "0.5 [l]",
+    "Engine Total Fuel Used": "23211.5 [l]"
+}
+{
+    "PGN": "OI(65279)",
+    "DA": "All(255)",
+    "SA": "Engine #1(  0)",
+    "Water In Fuel Indicator 1": "N/A",
+    "Operator Shift Prompt": "N/A",
+    "Water in Fuel Indicator 2": "N/A",
+    "Driver Warning System Indicator Status": "N/A",
+    "Emission Control System Operator Inducement Severity": "N/A",
+    "Fuel Supply Estimated Remaining Distance": "N/A"
+}
+{Bits('0x0cf00400'): 1, Bits('0x0cf00300'): 1, Bits('0x18fef100'): 1, Bits('0x18fef600'): 1, Bits('0x18fef200'): 1, Bits('0x18ff0000'): 1, Bits('0x18fedf00'): 1, Bits('0x0cff3927'): 1, Bits('0x18ff0a17'): 1, Bits('0x18feea2f'): 1, Bits('0x18fe592f'): 1, Bits('0x18feef00'): 1, Bits('0x18f00f52'): 1, Bits('0x18ff0b21'): 1, Bits('0x18fe582f'): 1, Bits('0x00ff012f'): 1, Bits('0x0cfe5a2f'): 1, Bits('0x18feee00'): 1, Bits('0x18f00029'): 1, Bits('0x0c00000b'): 1, Bits('0x18fdc40b'): 1, Bits('0x18fe4f0b'): 1, Bits('0x18febf0b'): 1, Bits('0x0c00290b'): 1, Bits('0x00ff022f'): 1, Bits('0x18f0010b'): 1, Bits('0x18feca2f'): 1, Bits('0x0cfd0f52'): 1, Bits('0x18fec117'): 1, Bits('0x18fee917'): 1, Bits('0x18fefc17'): 1, Bits('0x1cdeee17'): 1, Bits('0x1cff7017'): 1, Bits('0x0c000f0b'): 1, Bits('0x0c00100b'): 1, Bits('0x18ea0017'): 1, Bits('0x18fee500'): 1, Bits('0x18feca21'): 1, Bits('0x18feca3d'): 1, Bits('0x18fe563d'): 1, Bits('0x18fedf3d'): 1, Bits('0x18f0303d'): 1, Bits('0x18f0313d'): 1, Bits('0x18feeb00'): 1, Bits('0x18fef500'): 1, Bits('0x18f0323d'): 1, Bits('0x18ecff00'): 1, Bits('0x18f0333d'): 1, Bits('0x18ebff00'): 1, Bits('0x18f0343d'): 1, Bits('0x18f0353d'): 1, Bits('0x18fee400'): 1, Bits('0x18feca0b'): 1, Bits('0x18fec10b'): 1, Bits('0x18fef700'): 1, Bits('0x18ecff0f'): 1, Bits('0x18ebff0f'): 1, Bits('0x18fee900'): 1, Bits('0x18feff00'): 1}
+59

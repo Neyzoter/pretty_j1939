@@ -42,10 +42,6 @@ if __name__ == '__main__':
             if candump_line == '\n':
                 continue
             try:
-                # timestamp = float(candump_line.split(' ')[0].replace('(', '').replace(')', ''))
-                # message_id = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[0])
-                # message_data = bitstring.ConstBitArray(hex=candump_line.split(' ')[2].split('#')[1])
-                
                 #  (0000000029.695353)  can1  0CF00400   [8]  51 81 8A 44 14 00 F3 8A
                 timestamp = float(candump_line.split(
                     ' ')[1].replace('(', '').replace(')', ''))
@@ -72,38 +68,6 @@ if __name__ == '__main__':
             desc_line = ''
 
             description = describer(message_data.bytes, message_id.uint)
-
-            if args.format:
-                json_description = str(json.dumps(description, indent=4))
-                # print("json_description :", json_description)
-            else:
-                json_description = str(json.dumps(description, separators=(',', ':')))
-                # print("json_description :", json_description)
-            if len(description) > 0:
-                desc_line = desc_line + json_description
-            else:
-                desc_line = ''
-
-            if args.candata:
-                # can原始数据
-                can_line = candump_line.rstrip() + " ; "
-                if not args.format:
-                    desc_line = can_line + desc_line
-                else:
-                    formatted_lines = desc_line.splitlines()
-                    if len(formatted_lines) == 0:
-                        desc_line = can_line
-                    else:
-                        first_line = formatted_lines[0]
-                        desc_line = can_line + first_line
-                        formatted_lines.remove(first_line)
-
-                    for line in formatted_lines:
-                        desc_line = desc_line + '\n' + ' '*len(candump_line) + "; " + line
-
-            if len(desc_line) > 0:
-                print(desc_line)
-        print("id_counter:")
-        print(id_dict)
-        print("id size:")
-        print(len(id_dict))
+            key,val = description.popitem()
+            print(type(key), " ", type(val))
+            print(key, " ", val)

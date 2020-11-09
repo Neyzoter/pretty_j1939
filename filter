@@ -1,0 +1,59 @@
+# 井号用于注释
+Accelerator Pedal Position 1;0.0;%;加速踏板位置
+EBS Brake Switch;0.0;;刹车踏板是否踩下
+Brake Pedal Position;0.0;%;刹车踏板位置
+Engine Torque Mode;0.0;;发动机转矩模式
+Actual Engine - Percent Torque (Fractional);0.0;%;实际发送机-转矩百分比（小数部分），需要和Actual Engine - Percent Torque结合使用
+Actual Engine - Percent Torque;0.0;实际发送机-转矩百分比，结合上面的小数部分使用
+Driver's Demand Engine - Percent Torque;0.0;%;驾驶员需求发动机-扭矩百分比
+Engine Speed;0.0;rpm;发动机速度
+Front Axle Speed;0.0;km/h;前轴速度
+# Engine Total Hours of Operation;0.0;h;发送机总运行时间
+# Engine Total Revolutions;0.0;r;发送机总转数
+# Relative Speed; Front Axle, Left Wheel;0.0;km/h;前轴、左轮相对于前轴速度的速度
+# Relative Speed; Front Axle, Right Wheel;0.0;km/h;前轴、右车轮相对于前轴速度的速度
+# Relative Speed; Rear Axle #1, Left Wheel;0.0;km/h;
+# Relative Speed; Rear Axle #1, Right Wheel;0.0;km/h;
+# Aftertreatment 1 Outlet NOx Sensor Heater Ratio;0.0;;确定传感器尖端温度的加热器比率
+# Aftertreatment 1 Outlet NOx Sensor New part deviation NOx Gain;0.0;%;新零件偏差NOx_增益校正（重新计算）发动机ECU侧的传感器信号
+# Aftertreatment 1 Outlet NOx Sensor New part deviation NOx Offset;0.0;ppm; 
+# Aftertreatment 1 Outlet NOx Sensor Operation Hours;0.0;h;计算NOx传感器在“达到露点”状态下运行的小时数
+Total Vehicle Distance (High Resolution);0.0;m;总里程
+Engine Total Fuel Used;0.0;l;发动机汽油使用总量
+Wheel-Based Vehicle Speed;0.0;km/h;基于轮子的车速
+Brake Switch;0.0;;制动踏板状态，00 - Brake pedal released
+Engine Intake Manifold #1 Pressure;0.0;kPa;发动机进气歧管压力
+Engine Intake Manifold 1 Temperature;20.0;centigrade;发动机进气歧管温度
+Engine Intake Air Pressure;0.0;kPa;发动机进口空气压力
+Engine Exhaust Temperature;20.0;centigrade;发动机排气温度
+Engine Fuel Rate;0.0;l/h;耗油速度
+Engine Instantaneous Fuel Economy;0.0;km/L;当前车速下的当前燃油经济性
+Engine Average Fuel Economy;0.0;km/L;平均车速下的当前燃油经济性
+Nominal Friction - Percent Torque;0.0;%;标称摩擦-扭矩百分比
+Engine's Desired Operating Speed;0.0;rpm;发动机所需的工作转速
+Engine's Desired Operating Speed Asymmetry Adjustment;0.0;;发动机理想工作转速不对称调整
+Estimated Engine Parasitic Losses - Percent Torque;0.0;%;估计的发动机寄生损耗-扭矩百分比
+Axle Location;0.0;;轴位置
+Axle Weight;0.0;kg;轴重量
+Trailer Weight;0.0;kg;挂重量
+Cargo Weight;0.0;kg;货物重量
+Relative Level Rear Axle Left;0.0;mm;后轴左侧的高度信息参考正常水平1
+Relative Level Rear Axle Right;0.0;mm;
+Engine Fuel Delivery Pressure;0.0;kPa;发动机燃油输送压力
+Engine Oil Pressure;0.0;kPa;油泵提供的发动机润滑系统机油压力表
+# Engine Coolant Level 1;0.0;%;引擎冷却液液位
+Fuel Level 1;0.0;%;当前有的汽油，如果level2没有使用，则level1表示所有的汽油
+Bellow Pressure Rear Axle Left;0.0;kPa;后桥左侧空气悬架波纹管压力信息
+Bellow Pressure Rear Axle Right;0.0;kPa;后桥右侧空气悬架波纹管压力信息
+Engine Coolant Temperature;0.0;centigrade;冷却液温度
+Retarder Torque Mode;0.0;;减速器转矩模式
+Actual Retarder - Percent Torque;0.0;%;实际减速器转矩
+Retarder Enable - Brake Assist Switch;0.0;;缓速器启用-制动辅助开关
+Retarder Enable - Shift Assist Switch;0.0;;指示操作员是否希望为变速箱换档辅助启用缓速器的开关信号
+Actual Retarder - Percent Torque;0.0;%;实际减速器转矩百分比
+Intended Retarder Percent Torque;0.0;%;预期减速器扭矩百分比
+Drivers Demand Retarder -  Percent Torque;0.0;%;驾驶员请求的减速转矩百分比
+Actual Maximum Available Retarder - Percent Torque;0.0;%;实际最大可用减速转矩百分比
+Barometric Pressure;0.0;kPa;大气压
+Ambient Air Temperature;0.0;kPa;汽车外部温度
+Engine Intake 1 Air Temperature;0.0;centigrade;进入车辆进气系统的空气温度
